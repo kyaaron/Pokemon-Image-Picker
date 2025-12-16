@@ -4,7 +4,11 @@ h1, p {
 button {
     margin: 10px;
 }
-.btn-container {
+img {
+    width: 400px;
+    height: 400px;
+}
+.btn-container, .pkmn-image-container {
     display: flex;
     justify-content: center;
 }
