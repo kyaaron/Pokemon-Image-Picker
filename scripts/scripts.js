@@ -7,11 +7,9 @@ const pikachuButton = document.querySelector("#pikachu");
 // Image container where image will appear
 
 const getPokemonImage = pokemon => {
-    console.log("Function begin");
     const imageContainer = document.querySelector(".pkmn-image-container");
-    const imagePath = `assets/${pokemon}.jpeg`;
-    imageContainer.innerHTML = `<img src="${imagePath}" alt="Original ${pokemon} watercolor image" />`;
-    console.log("function finished");
+    const imagePath = `assets/${pokemon}.jpg`;
+    imageContainer.innerHTML = `<img src=${imagePath} alt="Original ${pokemon} watercolor image" />`;
 }
 
 bulbasaurButton.addEventListener("click", () => {
@@ -20,4 +18,12 @@ bulbasaurButton.addEventListener("click", () => {
 
 charmanderButton.addEventListener("click", () => {
     getPokemonImage("charmander");
+});
+
+squirtleButton.addEventListener("click", () => {
+    getPokemonImage("squirtle");
+});
+
+pikachuButton.addEventListener("click", () => {
+    getPokemonImage("pikachu");
 });
