@@ -45,33 +45,38 @@
 }
 
 @media screen and (min-width: 770px) {
-    h1, p, .pokedex-paragraph, h2 {
-        text-align: center;
+    /* LAYOUT STYLES */
+    header {
+        padding-bottom: 30px;
     }
-    button {
-        margin: 10px;
-    }
-    img {
-        padding-top: 30px;
-        width: auto;
-        height: auto;
-    }
-    .btn-container, .pkmn-image-container, .pokedex-info-container {
+    .search-container, .btn-container {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
-    .pokedex-info {
-        width: 50%;
-        height: 400px;
-        background-color: rgb(255, 209, 209);
-        border-radius: 15px;
-        margin: 2%;
+    h1 {
+        text-align: center;
+        font-size: 3.0rem;
     }
-    .pkmn-image-container {
-        width: 50%;
-        height: 400px;
-        border: 1px solid black;
-        border-radius: 15px;
-        margin: 2%;
+    /* DISPLAY STYLES */
+    .search-bar {
+        width: 70%;
+        height: 40px;
+        font-size: 1.1rem;
+        padding-left: 1%;
+        border-radius: 10px;
+        border: 0;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    }
+    .search-btn {
+        height: 40px;
+        border-radius: 10px;
+        font-size: 1.3rem;
+        border: 0.5px solid grey;
+        margin: 0 0 0 10px;
+        width: 100px;
+    }
+    .search-btn:hover {
+        background-color: rgb(210, 210, 210);
     }
 }
