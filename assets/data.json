@@ -1,0 +1,26 @@
+{
+    "bulbasaur": {
+        "name": "Bulbasaur",
+        "type": "Grass",
+        "number": 1,
+        "description": "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger."
+    },
+    "charmander": {
+        "name": "Charmander",
+        "type": "Fire",
+        "number": 4,
+        "description": "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail."
+    },
+    "squirtle": {
+        "name": "Squirtle",
+        "type": "Water",
+        "number": 7,
+        "description": "After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth."
+    },
+    "pikachu": {
+        "name": "Pikachu",
+        "type": "Electric",
+        "number": 25,
+        "description": "When several of these Pokémon gather, their electricity can build and cause lightning storms."
+    }
+}
