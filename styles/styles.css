@@ -58,6 +58,18 @@
         text-align: center;
         font-size: 3.0rem;
     }
+    .pokedex-info-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 8%;
+        background-color: rgb(255, 224, 224);
+        border-radius: 10px;
+        height: 350px;
+    }
+    .pkmn-image-container, .pokedex-info {
+        padding: 10px 15px;
+    }
     /* DISPLAY STYLES */
     .search-bar {
         width: 70%;
@@ -78,5 +90,9 @@
     }
     .search-btn:hover {
         background-color: rgb(210, 210, 210);
+    }
+    img {
+        width: 300px;
+        height: 300px;
     }
 }
