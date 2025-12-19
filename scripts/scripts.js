@@ -1,11 +1,5 @@
 import pokedexData from "../assets/data.json" with { type: "json"};
 
-// Pokemon buttons
-const bulbasaurButton = document.querySelector("#bulbasaur");
-const charmanderButton = document.querySelector("#charmander");
-const squirtleButton = document.querySelector("#squirtle");
-const pikachuButton = document.querySelector("#pikachu");
-
 const searchButton = document.querySelector(".search-btn");
 
 const getPokemonData = () => {
@@ -35,22 +29,4 @@ const getPokemonImage = pokemon => {
     imageContainer.innerHTML = `<img src=${imagePath} alt="Original ${pokemon} watercolor image" />`;
 }
 
-
-
 searchButton.addEventListener("click", getPokemonData);
-
-bulbasaurButton.addEventListener("click", () => {
-    getPokemonImage("bulbasaur");
-});
-
-charmanderButton.addEventListener("click", () => {
-    getPokemonImage("charmander");
-});
-
-squirtleButton.addEventListener("click", () => {
-    getPokemonImage("squirtle");
-});
-
-pikachuButton.addEventListener("click", () => {
-    getPokemonImage("pikachu");
-});
